@@ -12,7 +12,7 @@ Crypto Coin Tracker is a web application that provides real-time data about vari
 
 ## Github Page
 
-[View Project]([#](https://aarcher19.github.io/Crypto-Coin-Tracker/))
+[View Project](https://aarcher19.github.io/Crypto-Coin-Tracker/)
 
 ## Technologies Used
 
