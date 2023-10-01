@@ -45,11 +45,11 @@ function App() {
       setBtnText("Run Demo");
     }, 30000);
 
-    const interval = setInterval(fetchCoinData, 1000);
+    const interval = setInterval(fetchCoinData, 10000);
 
     setTimeout(() => {
       clearInterval(interval);
-    }, 30000);
+    }, 60000);
   }
 
   function formatCurrency(number) {
@@ -74,12 +74,13 @@ function App() {
       <h1>Crypto Coin Tracker</h1>
       <div className="descr">
         <p>
-          Click the Demo button to see a 30 second demo of the tracker in
+          Click the Demo button to see a 60 second demo of the tracker in
           action.
         </p>
         <p>
           I used a demo button to preserve the amount of calls on this API due
-          to there being a lifetime cap that i do not want to exceed.
+          to there being a lifetime cap that i do not want to exceed. This API
+          updates every 10 seconds.
         </p>
       </div>
       <div className="container">
